@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 Thinking in Java, 4th Edition: Downloading, Installing and Testing the Code
+
+My solutions for Thinking in Java 4. Some solutions might not be named properly and requires some effort be be found, sorry for the inconvenience.
 ---------------------------------------------------------------------------
 
 Note that this book covers Java 5/6. The recent book [On Java 8](http://www.onjava8.com/)
@@ -119,3 +122,7 @@ covers Java 8.
     you're getting started; instead, you may want to begin with a more
     basic editor like [JEdit](http://www.jedit.org/).
 
+=======
+# ThinkingInJava4exercises
+My solutions for Thinking in Java 4. Some solutions might not be named properly and requires some effort be be found, sorry for the inconvenience.
+>>>>>>> 22501750eb031e30e1dceda3d8ca8c44df7b14f4
