@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba04985a-3c9f-4835-a312-787891175028" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="ba04985a-3c9f-4835-a312-787891175028" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,26 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="E34.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/concurrency/E34.java">
+      <file leaf-file-name="GreenhouseScheduler.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/concurrency/GreenhouseScheduler.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2582#2596#0" expanded="true" />
-                <element signature="e#2676#2684#0" expanded="true" />
-                <element signature="e#2743#2751#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="675">
+              <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="E35.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/concurrency/E35.java">
+      <file leaf-file-name="E33.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/concurrency/E33.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="-1825">
+              <caret line="124" column="56" selection-start-line="124" selection-start-column="56" selection-end-line="124" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -41,35 +33,30 @@
       <file leaf-file-name="BankTellerSimulation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/concurrency/BankTellerSimulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="166" column="13" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
+            <state relative-caret-position="345">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Generator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/net/mindview/util/Generator.java">
+      <file leaf-file-name="E35.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/concurrency/E35.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Skinny.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/concurrency/Skinny.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/concurrency/Fat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="-459">
+              <caret line="114" column="42" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#1332#1333#0" expanded="true" />
+                <element signature="e#1363#1364#0" expanded="true" />
+                <element signature="e#2007#2008#0" expanded="true" />
+                <element signature="e#2047#2048#0" expanded="true" />
+                <element signature="e#2161#2162#0" expanded="true" />
+                <element signature="e#2199#2200#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,6 +97,10 @@
       <find>Fat</find>
       <find>Demo</find>
       <find>final v</find>
+      <find>Bank</find>
+      <find>maxlinesize</find>
+      <find>MAX_LINE_SIZE</find>
+      <find>currentLoad</find>
     </findStrings>
     <replaceStrings>
       <replace>Tank</replace>
@@ -129,6 +120,10 @@
       <replace>jammedQueue</replace>
       <replace>Skinny</replace>
       <replace>Demo34</replace>
+      <replace>Web</replace>
+      <replace>currentLineSize</replace>
+      <replace>INITIAL_LINE_SIZE</replace>
+      <replace>lastLoad</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/examples/holding</dir>
@@ -200,16 +195,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,40 +217,12 @@
               <item name="ThinkinginJava4" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ThinkinginJava4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkinginJava4" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThinkinginJava4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkinginJava4" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="BankTellerSimulation.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ThinkinginJava4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkinginJava4" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="E35.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ThinkinginJava4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkinginJava4" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="ExchangerDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,23 +334,22 @@
       <workItem from="1554827456261" duration="6318000" />
       <workItem from="1555001016193" duration="17951000" />
       <workItem from="1556216679159" duration="9774000" />
-      <workItem from="1556775181712" duration="5079000" />
+      <workItem from="1556775181712" duration="2046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241112000" />
+    <option name="totallyTimeSpent" value="251317000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1346" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1158" height="1050" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="bottom" id="TODO" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32976654" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -391,7 +357,7 @@
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23774146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24352331" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Learn" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -400,42 +366,64 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.16733468" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3296593" />
-    </layout>
-    <layout-to-restore>
       <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3296593" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Designer" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.16733468" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23774146" />
       <window_info id="Learn" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296593" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.16733468" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23774146" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296593" />
+      <window_info id="Learn" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="7" side_tool="true" />
     </layout-to-restore>
@@ -763,8 +751,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/concurrency/GreenhouseScheduler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        <state relative-caret-position="675">
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -775,28 +763,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Runnable.java" />
     <entry file="file://$PROJECT_DIR$/examples/concurrency/E33.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="163" column="27" lean-forward="true" selection-start-line="163" selection-start-column="27" selection-end-line="163" selection-end-column="27" />
-          <folding>
-            <element signature="e#7884#8407#0" expanded="true" />
-            <element signature="e#8406#8407#0" expanded="true" />
-            <element signature="class#Bell#0;class#GreenhouseScheduler33#0" />
-            <element signature="class#ThermostatDay#0;class#GreenhouseScheduler33#0" />
-            <element signature="class#ThermostatNight#0;class#GreenhouseScheduler33#0" />
-            <element signature="class#WaterOff#0;class#GreenhouseScheduler33#0" />
-            <element signature="class#WaterOn#0;class#GreenhouseScheduler33#0" />
-            <element signature="class#LightOff#0;class#GreenhouseScheduler33#0" />
-            <element signature="class#LightOn#0;class#GreenhouseScheduler33#0" />
-          </folding>
+        <state relative-caret-position="-1825">
+          <caret line="124" column="56" selection-start-line="124" selection-start-column="56" selection-end-line="124" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -810,28 +781,28 @@
     <entry file="file://$PROJECT_DIR$/examples/concurrency/Fat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/concurrency/Skinny.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/net/mindview/util/Generator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/concurrency/E34.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2582#2596#0" expanded="true" />
@@ -843,15 +814,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/concurrency/BankTellerSimulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="166" column="13" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
+        <state relative-caret-position="345">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/concurrency/E35.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="-459">
+          <caret line="114" column="42" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#2007#2008#0" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#2161#2162#0" expanded="true" />
+            <element signature="e#2199#2200#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

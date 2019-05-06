@@ -48,7 +48,6 @@ class WebClientGenerator implements Runnable {
             while(!Thread.interrupted()) {
                 TimeUnit.MILLISECONDS.sleep(newRequestInterval);
                 WebClients.put(new WebClient(rand.nextInt(1000)));
-                //System.out.println("new request generated");
             }
         } catch(InterruptedException e) {
             System.out.println("WebClientGenerator interrupted");
@@ -97,21 +96,23 @@ class LoadManager implements Runnable {
     private ExecutorService exec;
     private WebClientLine WebClients;
     private WebClientGenerator generator;
-    private int lastLoad;
+    private int lastLoad = WebClients.size();
     private int adjustmentPeriod;
     private static Random rand = new Random(47);
     public LoadManager(ExecutorService e,
                          WebClientLine WebClients, WebClientGenerator generator, int adjustmentPeriod) {
+        System.out.println("construct 0");
         exec = e;
         this.WebClients = WebClients;
         this.generator = generator;
         this.adjustmentPeriod = adjustmentPeriod;
-        this.lastLoad = WebClients.size();
+        System.out.println("construct 1");
         Server 
                 S1 = new Server(WebClients),
                 S2 = new Server(WebClients),
                 S3 = new Server(WebClients),
                 S4 = new Server(WebClients);
+        System.out.println("construct 2");
         exec.execute(S1);
         exec.execute(S2);
         exec.execute(S3);
@@ -132,6 +133,7 @@ class LoadManager implements Runnable {
             case 2: generator.raiseInterval(50); return;
             case -1: generator.dropInterval(25); return;
             case -2: generator.dropInterval(50); return;
+            default: break;
         }
         if (currentSize - lastLoad > 2 && generator.getCurrentInterval() < 300) {
             generator.raiseInterval(75);
@@ -165,16 +167,20 @@ class WebServerSimulation {
     static final int ADJUSTMENT_PERIOD = 1000;
     private static Random rand = new Random(66);
     public static void main(String[] args) throws Exception {
+        System.out.println("hello 1");
         ExecutorService exec = Executors.newCachedThreadPool();
         WebClientLine WebClients =
                 new WebClientLine();
+        System.out.println("hello 2");
         for (int i = 0; i < INITIAL_LINE_SIZE; i++) {
             WebClients.put(new WebClient(rand.nextInt(1000)));
         }
         WebClientGenerator generator = new WebClientGenerator(WebClients);
         exec.execute(generator);
+        System.out.println("hello 3");
         exec.execute(new LoadManager(
                 exec, WebClients, generator, ADJUSTMENT_PERIOD));
+        System.out.println("hello 4");
         if(args.length > 0) // Optional argument
             TimeUnit.SECONDS.sleep(new Integer(args[0]));
         else {
@@ -190,7 +196,6 @@ public class E35 {
         try {
             WebServerSimulation.main(args);
         } catch (Exception e) {
-            System.out.println(e);
         }
     }
 }
