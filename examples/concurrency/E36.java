@@ -50,7 +50,7 @@ class OrderTicket implements Runnable{
     private final Table table;
     private final WaitPerson36 waitPerson36;
     private final Restaurant36 Restaurant36;
-    Set<Customer> customers = new HashSet<>();
+//    Set<Customer> customers = new HashSet<>();
     //private final CountDownLatch latch;
     BlockingQueue<Order> orders = new LinkedBlockingDeque<Order>();
 
@@ -71,13 +71,24 @@ class OrderTicket implements Runnable{
             print("Order ticket interrupted");
         }
     }
-
     @Override
     public String toString() {
-        return "OrderTicket " + id + " at " + table + " of size " + customers.size();
+        return "OrderTicket " + id + " at " + table;
     }
 }
 
+class TicketPlacer implements Runnable {
+    private Table table;
+    private OrderTicket orderTicket;
+    public TicketPlacer(Table t, OrderTicket ot) {
+        this.table = t;
+        this.orderTicket = ot;
+    }
+    @Override
+    public void run() {
+        table.newTicket(orderTicket);
+    }
+}
 class Table {
     SynchronousQueue<OrderTicket> orderTicket = new SynchronousQueue<OrderTicket>();
 
@@ -93,7 +104,7 @@ class Table {
     private static int count;
     private final int id = count++;
     private Restaurant36 restaurant36;
-    private int customersDining = 0;
+    private volatile int customersDining = 0;
     public void setCustomersDining(int count) {
         customersDining = count;
     }
@@ -101,10 +112,10 @@ class Table {
         this.restaurant36 = Restaurant36;
     }
     public synchronized void oneCustomerFinishedMeal(){
-        print("customers at " + this + " still dining: " + customersDining);
         if (customersDining > 0) {
             customersDining --;
         }
+        print("customers at " + this + " still dining: " + customersDining);
         if (customersDining == 0) {
             try {
                 orderTicket.take();
@@ -125,6 +136,7 @@ class Table {
 class Customer implements Runnable {
     private static int counter = 0;
     private final int id = counter++;
+    private Random rand = new Random(99);
     private boolean ready = false;
     private Table table;
     public Table getTable(){
@@ -164,12 +176,14 @@ class Customer implements Runnable {
                         WaitPerson36.placeOrder(this, food, orderTicket);
                         // Blocks until course has been delivered:
                         print(this + " at " + table + " eating " + placeSetting.take());
+                        TimeUnit.MILLISECONDS.sleep(rand.nextInt(100));
                     } catch (InterruptedException e) {
                         print(this + " at " + table + " waiting for " +
                                 course + " interrupted");
                         return;
                     }
                 }
+                //TimeUnit.MILLISECONDS.sleep(rand.nextInt(1000));
                 print(this + "finished meal, ready to leave");
                 table.oneCustomerFinishedMeal();
             } catch (InterruptedException e) {
@@ -254,9 +268,6 @@ class FrontDesk implements Runnable {
         this.Restaurant36 = Restaurant36;
         this.exec = exec;
     }
-    public void putTicket(Table t, OrderTicket ot) {
-        t.newTicket(ot);
-    }
     @Override
     public void run() {
         print("front desk running");
@@ -271,6 +282,7 @@ class FrontDesk implements Runnable {
                 print(orderTicket);
                 t.setCustomersDining(group);
                 exec.execute(orderTicket);
+                exec.execute(new TicketPlacer(t, orderTicket));
                 try {
                     for (int i = 0; i < group; i++) {
                         Customer c = Restaurant36.getCustomerLine().take();
@@ -284,7 +296,6 @@ class FrontDesk implements Runnable {
                 } catch (InterruptedException e) {
                     print("arrangement interrupted " + e);
                 }
-                putTicket(t, orderTicket);
             }
         } catch (InterruptedException e) {
             print("Front desk interrupted");
@@ -343,7 +354,6 @@ class Restaurant36 implements Runnable {
     public BlockingQueue<Table> getTables(){
         return tables;
     }
-
     public BlockingQueue<Customer> getCustomerLine() {
         return customerLine;
     }
@@ -354,7 +364,7 @@ class Restaurant36 implements Runnable {
                 customerLine.put(c);
                 exec.execute(c);
                 print("Tables available " + tables.size());
-                TimeUnit.MILLISECONDS.sleep(1000);
+                TimeUnit.MILLISECONDS.sleep(500);
             }
         } catch(InterruptedException e) {
             print("Restaurant36 interrupted");
