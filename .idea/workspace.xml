@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba04985a-3c9f-4835-a312-787891175028" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/examples/concurrency/E39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/strings/E3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/strings/E4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/.FindBugsFilter.xml.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/.chapterOrder.xml.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/gui/flex/.helloflex1.mxml.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/gui/flex/.helloflex2.mxml.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/gui/flex/.songScript.as.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/gui/flex/.songStyles.css.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/gui/flex/.songs.mxml.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/gui/jnlp/.filechooser.html.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/gui/jnlp/.filechooser.jnlp.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/reusing/SprinklerSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/reusing/SprinklerSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/strings/InfiniteRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/strings/InfiniteRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/strings/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/strings/Receipt.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +45,7 @@
       <file leaf-file-name="RestaurantWithQueues.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/concurrency/restaurant2/RestaurantWithQueues.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
+            <state relative-caret-position="15">
               <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
               <folding>
                 <element signature="e#0#6402#0" expanded="true" />
@@ -44,16 +57,14 @@
       <file leaf-file-name="E36.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/concurrency/E36.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+            <state relative-caret-position="570">
+              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1857#1864#0" expanded="true" />
                 <element signature="e#2431#2432#0" expanded="true" />
                 <element signature="e#2490#2491#0" expanded="true" />
                 <element signature="e#2746#2747#0" expanded="true" />
                 <element signature="e#2790#2791#0" expanded="true" />
-                <element signature="e#2876#2889#0" expanded="true" />
                 <element signature="e#3390#3391#0" expanded="true" />
                 <element signature="e#3429#3430#0" expanded="true" />
                 <element signature="e#3475#3476#0" expanded="true" />
@@ -62,18 +73,12 @@
                 <element signature="e#4161#4162#0" expanded="true" />
                 <element signature="e#4406#4407#0" expanded="true" />
                 <element signature="e#4434#4435#0" expanded="true" />
-                <element signature="e#4681#4688#0" expanded="true" />
                 <element signature="e#6424#6425#0" expanded="true" />
                 <element signature="e#6469#6470#0" expanded="true" />
                 <element signature="e#6673#6674#0" expanded="true" />
                 <element signature="e#6708#6709#0" expanded="true" />
-                <element signature="e#6785#6792#0" expanded="true" />
                 <element signature="e#7826#7827#0" expanded="true" />
                 <element signature="e#7875#7876#0" expanded="true" />
-                <element signature="e#10683#10697#0" expanded="true" />
-                <element signature="e#10896#10902#0" expanded="true" />
-                <element signature="e#10971#10978#0" expanded="true" />
-                <element signature="e#11493#11500#0" expanded="true" />
                 <element signature="e#12427#12428#0" expanded="true" />
                 <element signature="e#12456#12457#0" expanded="true" />
                 <element signature="e#12511#12512#0" expanded="true" />
@@ -83,20 +88,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FastSimulation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/concurrency/FastSimulation.java">
+      <file leaf-file-name="SprinklerSystem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/reusing/SprinklerSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+            <state relative-caret-position="545">
+              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="E39.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/concurrency/E39.java">
+      <file leaf-file-name="Turtle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/strings/Turtle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="114" column="22" lean-forward="true" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
+            <state>
+              <caret selection-end-line="27" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="E3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/strings/E3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InfiniteRecursion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/strings/InfiniteRecursion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#535#554#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,8 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Car</find>
-      <find>HyperCar</find>
       <find>what</find>
       <find>println</find>
       <find>Stem</find>
@@ -142,6 +171,8 @@
       <find>WaitPerson</find>
       <find>newTicket</find>
       <find>print</find>
+      <find>Turtle</find>
+      <find>Receipt</find>
     </findStrings>
     <replaceStrings>
       <replace>Tank</replace>
@@ -167,6 +198,9 @@
       <replace>lastLoad</replace>
       <replace>Restaurant36</replace>
       <replace>WaitPerson36</replace>
+      <replace>E3</replace>
+      <replace>E4rpt</replace>
+      <replace>E4</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/examples/holding</dir>
@@ -178,11 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/examples/concurrency/E6.java" />
-        <option value="$PROJECT_DIR$/examples/concurrency/LiftOff.java" />
-        <option value="$PROJECT_DIR$/examples/concurrency/MoreBasicThreads.java" />
-        <option value="$PROJECT_DIR$/examples/concurrency/Daemons.java" />
-        <option value="$PROJECT_DIR$/examples/concurrency/SimplePriorities.java" />
         <option value="$PROJECT_DIR$/examples/concurrency/E8.java" />
         <option value="$PROJECT_DIR$/examples/concurrency/E9.java" />
         <option value="$PROJECT_DIR$/examples/concurrency/E10.java" />
@@ -229,6 +258,11 @@
         <option value="$PROJECT_DIR$/examples/concurrency/E37.java" />
         <option value="$PROJECT_DIR$/examples/concurrency/E38.java" />
         <option value="$PROJECT_DIR$/examples/concurrency/E39.java" />
+        <option value="$PROJECT_DIR$/examples/reusing/SprinklerSystem.java" />
+        <option value="$PROJECT_DIR$/examples/strings/InfiniteRecursion.java" />
+        <option value="$PROJECT_DIR$/examples/strings/E3.java" />
+        <option value="$PROJECT_DIR$/examples/strings/Receipt.java" />
+        <option value="$PROJECT_DIR$/examples/strings/E4.java" />
       </list>
     </option>
   </component>
@@ -245,8 +279,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-2560" />
-    <option name="width" value="2560" />
+    <option name="x" value="-1065" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -255,6 +290,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,28 +309,12 @@
               <item name="ThinkinginJava4" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkinginJava4" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThinkinginJava4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkinginJava4" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="ShifuChen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThinkinginJava4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkinginJava4" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="ShifuChen" type="462c0819:PsiDirectoryNode" />
-              <item name="FileKeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="strings" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -408,12 +430,15 @@
       <workItem from="1556775181712" duration="2046000" />
       <workItem from="1557182547396" duration="15998000" />
       <workItem from="1557537085497" duration="6193000" />
-      <workItem from="1558611722808" duration="256000" />
+      <workItem from="1558611722808" duration="417000" />
+      <workItem from="1561342654309" duration="1860000" />
+      <workItem from="1563127740794" duration="201000" />
+      <workItem from="1564055196930" duration="1263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="307760000" />
+    <option name="totallyTimeSpent" value="316679000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -425,8 +450,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2560" y="0" width="2560" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1065" y="-1080" width="1920" height="1080" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3299389" />
@@ -438,10 +462,10 @@
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="bottom" id="Version Control" order="17" weight="0.3299389" />
-      <window_info active="true" anchor="right" id="Terminal" order="9" visible="true" weight="0.40786338" />
+      <window_info active="true" anchor="right" id="Terminal" order="9" visible="true" weight="0.33493078" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12787926" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1544196" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Learn" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -452,31 +476,31 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3296593" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Messages" order="15" visible="true" weight="0.16191445" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17155068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17704518" />
       <window_info id="Learn" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3299389" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="17" weight="0.3299389" />
-      <window_info anchor="bottom" id="Run" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="3" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="18" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.3296593" />
       <window_info active="true" anchor="right" id="Terminal" order="9" visible="true" weight="0.3840049" />
+      <window_info anchor="bottom" id="Event Log" order="18" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Messages" order="15" visible="true" weight="0.16191445" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="7" side_tool="true" />
     </layout>
@@ -497,48 +521,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/concurrency/E22.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="107" column="34" selection-start-line="107" selection-start-column="34" selection-end-line="107" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/concurrency/E23.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/concurrency/E24.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/concurrency/E26.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/concurrency/LiftOff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/concurrency/TestBlockingQueues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/concurrency/ToastOMatic.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -792,16 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/concurrency/restaurant2/RestaurantWithQueues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#6402#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/concurrency/E37.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -830,18 +802,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples/concurrency/FastSimulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/concurrency/E39.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="99" column="38" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/concurrency/restaurant2/RestaurantWithQueues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#6402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/concurrency/E36.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        <state relative-caret-position="570">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1857#1864#0" expanded="true" />
             <element signature="e#2431#2432#0" expanded="true" />
             <element signature="e#2490#2491#0" expanded="true" />
             <element signature="e#2746#2747#0" expanded="true" />
             <element signature="e#2790#2791#0" expanded="true" />
-            <element signature="e#2876#2889#0" expanded="true" />
             <element signature="e#3390#3391#0" expanded="true" />
             <element signature="e#3429#3430#0" expanded="true" />
             <element signature="e#3475#3476#0" expanded="true" />
@@ -850,18 +844,12 @@
             <element signature="e#4161#4162#0" expanded="true" />
             <element signature="e#4406#4407#0" expanded="true" />
             <element signature="e#4434#4435#0" expanded="true" />
-            <element signature="e#4681#4688#0" expanded="true" />
             <element signature="e#6424#6425#0" expanded="true" />
             <element signature="e#6469#6470#0" expanded="true" />
             <element signature="e#6673#6674#0" expanded="true" />
             <element signature="e#6708#6709#0" expanded="true" />
-            <element signature="e#6785#6792#0" expanded="true" />
             <element signature="e#7826#7827#0" expanded="true" />
             <element signature="e#7875#7876#0" expanded="true" />
-            <element signature="e#10683#10697#0" expanded="true" />
-            <element signature="e#10896#10902#0" expanded="true" />
-            <element signature="e#10971#10978#0" expanded="true" />
-            <element signature="e#11493#11500#0" expanded="true" />
             <element signature="e#12427#12428#0" expanded="true" />
             <element signature="e#12456#12457#0" expanded="true" />
             <element signature="e#12511#12512#0" expanded="true" />
@@ -870,17 +858,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/concurrency/FastSimulation.java">
+    <entry file="file://$PROJECT_DIR$/examples/strings/InfiniteRecursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        <state relative-caret-position="323">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#535#554#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/concurrency/E39.java">
+    <entry file="file://$PROJECT_DIR$/examples/reusing/SprinklerSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="114" column="22" lean-forward="true" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
+        <state relative-caret-position="545">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/strings/Turtle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/strings/E3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/strings/Receipt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/strings/E4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
         </state>
       </provider>
     </entry>
